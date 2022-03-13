@@ -113,7 +113,7 @@ body{
     outline: none;
     color: #fff;
     cursor: pointer;
-    font-style: 16px;
+    font-size: 16px;
     padding: 13px 22px;
     border-radius: 30px;
     background: #fa2694;
@@ -131,4 +131,50 @@ body{
 button.loading{
     opacity: .7;
     pointer-events: none;
+}
+
+@media screen and (max-width: 375px) {
+    
+.wrapper{
+    width: 350px;
+}
+
+.wrapper header{
+    font-size: 26px;
+}
+
+.wrapper .content{
+    margin: 25px 0;
+}
+
+.quote-area .quote{
+    font-size: 17px;
+}
+
+.quote-area i{
+    font-size: 13px;
+}
+
+.content .author{
+    font-size: 15px;
+}
+
+.buttons .features{
+    margin-top: 14px;
+}
+
+
+.features ul li{
+    height: 40px;
+    width: 40px;
+}
+.features ul li i{
+    font-size: 14px;
+}
+
+
+
+.features button{
+    padding: 10px 20px;
+}
 }
